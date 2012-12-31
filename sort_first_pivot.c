@@ -1,3 +1,6 @@
+//this work aims to impement a quik sort algorithm in a recursive way
+//and it set the first element in the array as a pivot
+
 #include<stdio.h>
 #define SCALE 5
 
