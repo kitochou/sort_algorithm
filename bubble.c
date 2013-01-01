@@ -17,6 +17,7 @@ int main()
     {
         printf("%d\n",a[i]);
     }
+    return 0;
 }
 void exchange(int * a, int * b)
 {
