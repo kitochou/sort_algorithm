@@ -41,7 +41,6 @@ void heapify(int * array, int scale, int t)
     int tmp;
     for(i = t; i <= scale / 2 - 1; )
     {
-        printf("i is %d\n", i);
         j = r(i);
         if(j < scale)
         {
@@ -68,7 +67,6 @@ void heap_init(int * array)
     int i = SCALE / 2 - 1;
     for(; i >= 0; i --)
     {
-       // printf("i is %d\n", i);
         heapify(array, SCALE, i);
     }
 }
